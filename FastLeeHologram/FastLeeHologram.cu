@@ -35,7 +35,7 @@ __global__ void computeCuda(double *inputPhases, bool *binaryPatterns, double *c
 		for (int y = 0; y < DMDheight; y++)
 		{
 
-			phaseAngle = 0.0;
+			phaseAngle = 0.0;  //good
 
 			if (y >= numReferencePixels && y < DMDheight - numReferencePixels && x >= numReferencePixels && x < effectiveDMDwidth - numReferencePixels)
 			{
