@@ -273,6 +273,6 @@ void mexFunction(int nlhs, mxArray *plhs[],
 	}
 
 	delete zeroPattern;
-	delete carrierWave;
+	delete carrierWave;  //good
 }
 
