@@ -1,0 +1,9 @@
+diff a/FastLeeHologram/FastLeeHologram.cu b/FastLeeHologram/FastLeeHologram.cu	(rejected hunks)
+@@ -35,6 +35,7 @@
+ 		for (int y = 0; y < DMDheight; y++)
+ 		{
+ 
++			phaseAngle = 0.0;  //good
+ 
+ 			if (y >= numReferencePixels && y < DMDheight - numReferencePixels && x >= numReferencePixels && x < effectiveDMDwidth - numReferencePixels)
+ 			{
